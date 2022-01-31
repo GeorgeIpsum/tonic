@@ -1,0 +1,14 @@
+{
+  "name": "tonic",
+  "version": "0.1.0",
+  "description": "a damage memeter",
+  "main": "dist/index.js",
+  "repository": "git@github.com:GeorgeIpsum/tonic.git",
+  "author": "Ibrahim Saberi <georgeipsum@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.14.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

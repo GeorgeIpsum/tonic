@@ -1,0 +1,14 @@
+<html>
+  <script>
+    const d = new WebSocket("wss://localhost:10501/MiniParse");
+
+    d.addEventListener('open', e => {
+      console.log('open');
+      console.log('open event', e);
+    });
+
+    d.addEventListener('message', e => {
+      console.log('message', e.data);
+    })
+  </script>
+</html>
